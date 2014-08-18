@@ -1,6 +1,7 @@
 .test-component {
   border: 1px solid red;
   color: lime;
+  overflow: hidden;
   padding: 30px;
   position: relative; }
   .test-component[data-state="active"] {
@@ -8,7 +9,8 @@
 
 .test-component__avatar {
   float: left;
-  margin-right: 20px; }
+  margin-right: 20px;
+  width: 100px; }
 
 .test-component__content {
   border: 1px solid blue;
