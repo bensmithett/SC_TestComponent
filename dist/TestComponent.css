@@ -1,0 +1,15 @@
+.test-component {
+  border: 1px solid red;
+  color: lime;
+  padding: 30px;
+  position: relative; }
+  .test-component[data-state="active"] {
+    font-weight: bold; }
+
+.test-component__avatar {
+  float: left;
+  margin-right: 20px; }
+
+.test-component__content {
+  border: 1px solid blue;
+  padding: 10px; }

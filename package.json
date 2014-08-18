@@ -1,0 +1,16 @@
+{
+  "name": "SC_TestComponent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A test component",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bensmithett/SC_TestComponent.git"
+  },
+  "devDependencies": {
+    "SC_TestColourPalette": "bensmithett/SC_TestColourPalette#91b6d44"
+  },
+  "scripts": {
+    "build": "sass --load-path . lib/TestComponent.sass:dist/TestComponent.css"
+  }
+}

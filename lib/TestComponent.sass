@@ -1,0 +1,18 @@
+@import "node_modules/SC_TestColourPalette/index.sass"
+
+.test-component
+  border: 1px solid $red
+  color: $green
+  padding: 30px
+  position: relative
+
+  &[data-state="active"]
+    font-weight: bold
+
+.test-component__avatar
+  float: left
+  margin-right: 20px
+
+.test-component__content
+  border: 1px solid $blue
+  padding: 10px
