@@ -8,8 +8,8 @@
     "url": "git://github.com/bensmithett/SC_TestComponent.git"
   },
   "devDependencies": {
-    "SC_base": "bensmithett/SC_base#15bd5b5",
-    "SC_TestColourPalette": "bensmithett/SC_TestColourPalette#91b6d44"
+    "SC_base": "bensmithett/SC_base#1.0.0",
+    "SC_TestColourPalette": "bensmithett/SC_TestColourPalette#1.0.0"
   },
   "scripts": {
     "build": "sass --load-path . lib/TestComponent.sass:dist/index.css",
