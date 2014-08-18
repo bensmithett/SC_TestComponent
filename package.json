@@ -12,6 +12,7 @@
     "SC_TestColourPalette": "bensmithett/SC_TestColourPalette#91b6d44"
   },
   "scripts": {
-    "build": "sass --load-path . lib/TestComponent.sass:dist/index.css"
+    "build": "sass --load-path . lib/TestComponent.sass:dist/index.css",
+    "test": "echo TODO: diff baseline images with phantomcss"
   }
 }
